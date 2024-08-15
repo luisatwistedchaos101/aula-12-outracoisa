@@ -1,26 +1,13 @@
-const tarefas = [];
+// 1. Cria uma lista vazia para armazenar as tarefas.
 
-function exibirLista() {
-  const taskListElement = document.getElementById("taskList");
-  taskListElement.innerHTML = "";
 
-  for (let indice = 0; indice < tarefas.length; indice++) {
-    taskListElement.innerHTML += `
-      <li>${indice + 1}. ${tarefas[indice]}</li>
-    `;
-  }
-}
 
-function adicionarTarefa(lista, novaTarefa) {
-  if (novaTarefa) {
-    lista.push(novaTarefa);
-    exibirLista();
-  }
-}
+// 2. Função para exibir a lista de tarefas na página.
 
-document.getElementById("addTaskButton").addEventListener("click", () => {
-  const taskInput = document.getElementById("taskInput");
-  const novaTarefa = taskInput.value;
-  adicionarTarefa(tarefas, novaTarefa);
-  taskInput.value = "";
-});
+
+
+// 3. Função para adicionar uma nova tarefa à lista.
+
+
+
+// 4. Adiciona um evento ao botão de adicionar tarefa quando ele é clicado.
