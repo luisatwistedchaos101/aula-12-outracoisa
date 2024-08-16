@@ -1,4 +1,4 @@
-const lista = [["Aryane", "Breno", "Kaylany", "Moriam"], [10, 8, 7.5, 5]];
+const lista = [["Breno", "Kaylany", "Luisa", "Moriam"], [8, 10, 7.5, 9]];
 
 // Criando a função
 function exibeNomeENota(aluno) {
